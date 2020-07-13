@@ -18513,7 +18513,7 @@ static const struct LevelUpMove sZarudeLevelUpLearnset[] = {
 	LEVEL_UP_MOVE(30, MOVE_SCARYFACE),
 	LEVEL_UP_MOVE(36, MOVE_GRASSKNOT),
 	LEVEL_UP_MOVE(42, MOVE_BITE),
-	LEVEL_UP_MOVE(48, MOVE_U_TURN),
+	LEVEL_UP_MOVE(48, MOVE_UTURN),
 	LEVEL_UP_MOVE(54, MOVE_SWAGGER),
 	LEVEL_UP_MOVE(60, MOVE_ENERGYBALL),
 	LEVEL_UP_MOVE(66, MOVE_SYNTHESIS),
@@ -18787,7 +18787,7 @@ static const struct LevelUpMove sMrMimeGLevelUpLearnset[] = {
 	LEVEL_UP_END
 };		
 
-/* static const struct LevelUpMove sArticunoGLevelUpLearnset[] = {
+ static const struct LevelUpMove sArticunoGLevelUpLearnset[] = {
 	LEVEL_UP_END
 };		
 
@@ -18801,7 +18801,7 @@ static const struct LevelUpMove sMoltresGLevelUpLearnset[] = {
 
 static const struct LevelUpMove sSlowkingGLevelUpLearnset[] = {
 	LEVEL_UP_END
-};	*/	
+};	
 
 static const struct LevelUpMove sCorsolaGLevelUpLearnset[] = {
 	LEVEL_UP_MOVE( 1, MOVE_HARDEN),
@@ -20158,10 +20158,10 @@ const struct LevelUpMove* const gLevelUpLearnsets[NUM_SPECIES] =
 	[SPECIES_WEEZING_G] = sWeezingGLevelUpLearnset,
 	[SPECIES_MIME_JR_G] = sMimeJrLevelUpLearnset,
 	[SPECIES_MR_MIME_G] = sMrMimeGLevelUpLearnset,
-/*	[SPECIES_ARTICUNO_G] = sArticunoGLevelUpLearnset,
+	[SPECIES_ARTICUNO_G] = sArticunoGLevelUpLearnset,
 	[SPECIES_ZAPDOS_G] = sZapdosGLevelUpLearnset,
 	[SPECIES_MOLTRES_G] = sMoltresGLevelUpLearnset,
-	[SPECIES_SLOWKING_G] = sSlowkingGLevelUpLearnset, */
+	[SPECIES_SLOWKING_G] = sSlowkingGLevelUpLearnset, 
 	[SPECIES_CORSOLA_G] = sCorsolaGLevelUpLearnset,
 	[SPECIES_ZIGZAGOON_G] = sZigzagoonGLevelUpLearnset,
 	[SPECIES_LINOONE_G] = sLinooneGLevelUpLearnset,
